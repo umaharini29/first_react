@@ -18,8 +18,18 @@ function App() {
           Learn React
         </a>
       </header>
+      <MyFunction />
     </div>
   );
+}
+
+function MyFunction() {
+  return(
+    <div>
+      <h1>hello World</h1>
+      <p>This is my first React function component.</p>
+    </div>
+  )
 }
 
 export default App;
